@@ -1,0 +1,53 @@
+[
+  {
+    "article_ids": [
+      "302043"
+    ],
+    "article_likes_ids": [],
+    "author_likes_ids": [],
+    "author_name": "Web开发者小组",
+    "avatar": "//img1.sycdn.imooc.com/5dafce1a00013fd501400140-160-160.jpg",
+    "explain": "作者太懒，不想写简介",
+    "fans_count": 0,
+    "follow_count": 0,
+    "gender": "男",
+    "integral_count": 0,
+    "professional": "全栈工程师",
+    "status": "normal",
+    "thumbs_up_article_ids": []
+  },
+  {
+    "article_ids": [
+      "302044"
+    ],
+    "article_likes_ids": [],
+    "author_likes_ids": [],
+    "author_name": "足球新闻小编",
+    "avatar": "//img1.sycdn.imooc.com/5dafce1a00013fd501400140-160-160.jpg",
+    "explain": "作者太懒，不想写简介",
+    "fans_count": 0,
+    "follow_count": 0,
+    "gender": "男",
+    "integral_count": 0,
+    "professional": "资深足球记者",
+    "status": "normal",
+    "thumbs_up_article_ids": []
+  },
+  {
+    "article_ids": [
+      "302042"
+    ],
+    "article_likes_ids": [],
+    "author_likes_ids": [],
+    "author_name": "7个月",
+    "avatar": "//img1.sycdn.imooc.com/5dafce1a00013fd501400140-160-160.jpg",
+    "explain": "作者太懒，不想写简介",
+    "fans_count": 0,
+    "follow_count": 0,
+    "gender": "男",
+    "integral_count": 0,
+    "professional": "java高级工程师",
+    "status": "normal",
+    "thumbs_up_article_ids": []
+  }
+]

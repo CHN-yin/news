@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "news",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "detail-comment": "/components/detail-comment/detail-comment",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "u-parse": "/components/gaoyia-parse/parse"
+  }
+}
