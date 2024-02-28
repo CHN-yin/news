@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "list-scroll": "/components/list-scroll/list-scroll",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "list-cart": "/components/list-cart/list-cart"
+  },
+  "component": true,
+  "styleIsolation": "apply-shared"
+}

@@ -96,3 +96,10 @@ export const get_myArticle = data => {
 		data
 	})
 }
+
+export const set_feedback = data => {
+	return pm({
+		url: 'set_feedback',
+		data
+	})
+}

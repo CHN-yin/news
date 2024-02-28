@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "list-like": "/components/list-like/list-like"
+  },
+  "component": true
+}

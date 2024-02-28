@@ -103,16 +103,17 @@
 	}
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 	page {
+		display: flex;
 		height: 100%;
 		color: #333;
 	}
 
 	.follow {
+		flex: 1;
 		display: flex;
 		flex-direction: column;
-		height: 100%;
 		background-color: #fff;
 
 		&__header {

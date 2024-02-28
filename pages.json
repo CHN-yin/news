@@ -19,7 +19,7 @@
 			"path" : "pages/tabbar/my/my",
 			"style" : 
 			{
-				"navigationBarTitleText" : "我的"
+				"navigationBarTitleText" : "个人中心"
 			}
 		},
 		{
@@ -73,7 +73,7 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#36ab60",
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {

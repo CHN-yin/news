@@ -1,0 +1,9 @@
+{
+  "pullRefresh": true,
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "nav-bar": "/components/navBar/navBar",
+    "tab": "/components/tab/tab",
+    "list": "/components/list/list"
+  }
+}

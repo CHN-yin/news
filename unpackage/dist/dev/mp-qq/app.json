@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/follow/follow",
+    "pages/tabbar/my/my",
+    "pages/home-search/home-search",
+    "pages/label-set/label-set",
+    "pages/detail/detail",
+    "pages/comment/comment",
+    "pages/my-article/my-article",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#36ab60",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#36ab60",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index（1）.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/follow/follow",
+        "iconPath": "static/follow.png",
+        "selectedIconPath": "static/follow（1）.png",
+        "text": "关注"
+      },
+      {
+        "pagePath": "pages/tabbar/my/my",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my（1）.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "fix-2648": "/fix-2648"
+  }
+}

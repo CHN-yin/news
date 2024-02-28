@@ -22,7 +22,7 @@ import { get_myArticle } from '../../common/api';
 		onLoad() {
 			this.getMyArticlle()
 		},
-		methods: {
+		methods: { 
 			getMyArticlle() {
 				get_myArticle().then(res => {
 					this.articleList = res.data
