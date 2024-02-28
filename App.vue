@@ -6,8 +6,7 @@ import { get_userInfo } from './common/api'
 		},
 		methods:{
 			getUserInfo(){
-				const user_id = '658009a7bd02205a533b24ec'
-				get_userInfo({user_id}).then(res => {
+				get_userInfo().then(res => {
 					const { data } = res
 					this.$store.commit('handleUserInfo', {data})
 				})

@@ -22,7 +22,6 @@
 						<list-scroll>
 							<list-cart v-for="item in articleList" :key="item._id" :item="item" type="follow" />
 						</list-scroll>
-
 					</view>
 				</swiper-item>
 				<swiper-item>

@@ -5,7 +5,10 @@
     "pages/tabbar/my/my",
     "pages/home-search/home-search",
     "pages/label-set/label-set",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/comment/comment",
+    "pages/my-article/my-article",
+    "pages/feedback/feedback"
   ],
   "subPackages": [],
   "window": {

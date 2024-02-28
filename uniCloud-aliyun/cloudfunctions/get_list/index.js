@@ -5,8 +5,9 @@ exports.main = async (event, context) => {
 	const { user_id, page, pageSize } = event
 	let classify = event.name || {}
 	if(classify === '全部') classify = {}
-	const userInfo = await db.collection('user').get()
+	const userInfo = await db.collection('user').doc(user_id).get()
 	const { article_likes_ids } = userInfo.data[0]
+	console.log(article_likes_ids,user_id);
 	const result = await db.collection('article').aggregate()
 	// 追加一个字段
 	.addFields({

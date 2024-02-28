@@ -62,7 +62,7 @@
 .navBar .search__box__rehearsal, .navBar .search__item__rehearsal {
   flex: 1;
   padding: 0 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .navBar .search__box__btn, .navBar .search__item__btn {
   width: 50px;

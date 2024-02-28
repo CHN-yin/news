@@ -89,3 +89,10 @@ export const get_userInfo = data => {
 		data
 	})
 }
+
+export const get_myArticle = data => {
+	return pm({
+		url: 'get_myArticle',
+		data
+	})
+}

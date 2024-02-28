@@ -26,6 +26,7 @@
 /* 文章场景相关 */
 .list-content {
   height: 100%;
+  background-color: #fff;
 }
 .list-scroll {
   height: 100%;

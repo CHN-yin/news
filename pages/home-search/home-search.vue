@@ -63,7 +63,7 @@ import { get_search } from '../../common/api'
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .wrapper{
 	height: 100vh;
 	display: flex;

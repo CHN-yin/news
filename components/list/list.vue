@@ -63,6 +63,6 @@
 
 <style lang="scss">
 	.list-swiper {
-		height: 100%;
+		height: 100vh;
 	}
 </style>

@@ -52,6 +52,22 @@
 				"navigationBarTitleText" : "评论",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/my-article/my-article",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的文章",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/feedback/feedback",
+			"style" : 
+			{
+				"navigationBarTitleText" : "反馈意见",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"globalStyle": {

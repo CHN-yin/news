@@ -53,10 +53,6 @@
   white-space: normal !important;
   word-wrap: break-word;
 }
-.comment-box__head__to-name {
-  font-weight: bold;
-  margin: 0 5px;
-}
 .comment-box__head__time {
   font-size: 11px;
   color: #666;
@@ -64,6 +60,10 @@
 .comment-box__content {
   padding: 0 15px;
   margin-top: 10px;
+}
+.comment-box__content__to-name {
+  margin-right: 5px;
+  font-weight: bold;
 }
 .comment-box__btn {
   display: inline-block;

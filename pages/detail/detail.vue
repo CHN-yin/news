@@ -21,7 +21,7 @@
 
 		<view class="detail__content">
 			<view class="detail__content__text">
-				<uParse :content="detailData.content" noData="加载中...."></uParse>
+				<uParse :content="detailData.content" noData=""></uParse>
 			</view>
 		</view>
 
@@ -49,16 +49,16 @@
 					'height': '15px',
 					'line-height': '15px',
 					'font-size': '10px',
-					'right': '-7px',
-					'top': '-7px',
+					'right': '10px',
+					'top': '-3px',
 					'transform-origin': 'right'
 					}">
-					<text class="iconfont detail__tabbar__right__icon" @click="handleComment">&#xe687;</text>
+					<view class="iconfont detail__tabbar__right__icon" @click="handleComment">&#xe687;</view>
 				</uni-badge>
-				<text class="iconfont detail__tabbar__right__icon" @click="handleCollect(detailData._id)"
-					v-html="detailData.is_article_like ? '&#xe684;' : '&#xe643;'"></text>
-				<text class="iconfont detail__tabbar__right__icon" @click="handleThumbs(detailData._id)"
-					v-html="detailData.is_thumbs_up_article ? '&#xec8c;' : '&#xec7f;'"></text>
+				<view class="iconfont detail__tabbar__right__icon" @click="handleCollect(detailData._id)"
+					v-html="detailData.is_article_like ? '&#xe684;' : '&#xe643;'"></view>
+				<view class="iconfont detail__tabbar__right__icon" @click="handleThumbs(detailData._id)"
+					v-html="detailData.is_thumbs_up_article ? '&#xec8c;' : '&#xec7f;'">&#xec7f;</view>
 			</view>
 		</view>
 		<uni-popup ref="popup" type="bottom" :maskClick="false">
@@ -273,15 +273,15 @@
 			}
 
 			&__name {
-				font-size: 14px;
+				font-size: 12px;
 				color: #333;
-				margin-bottom: 6px;
+				margin-bottom: 4px;
 			}
 
 			&__tab {
 				display: flex;
 				align-items: center;
-				font-size: 12px;
+				font-size: 10px;
 				color: #666;
 
 				&__item {
@@ -321,10 +321,10 @@
 			background-color: #fff;
 
 			&__left {
+				flex: 1;
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
-				width: 55%;
 				height: 30px;
 				border: 1px solid #ddd;
 				border-radius: 5px;
@@ -343,13 +343,12 @@
 			}
 
 			&__right {
-				flex: 1;
 				display: flex;
-				justify-content: space-around;
 
 				&__icon {
 					font-size: 20px;
 					color: #f07373;
+					margin: 0 15px;
 				}
 			}
 		}

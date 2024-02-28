@@ -4,16 +4,35 @@
     "version" : "0.0",
     "configurations" : [
         {
-            "default" : {
-                "launchtype" : "local"
-            },
-            "mp-weixin" : {
-                "launchtype" : "local"
-            },
-            "type" : "uniCloud"
+        	"app-plus" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"default" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"mp-alipay" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"mp-qq" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"mp-toutiao" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"mp-weixin" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"provider" : "aliyun",
+        	"type" : "uniCloud"
         },
         {
-            "playground" : "custom",
+            "playground" : "standard",
             "type" : "uni-app:app-android"
         }
     ]

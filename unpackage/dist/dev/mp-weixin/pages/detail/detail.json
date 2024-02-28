@@ -3,7 +3,10 @@
   "enablePullDownRefresh": false,
   "usingComponents": {
     "detail-comment": "/components/detail-comment/detail-comment",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "uni-badge": "/uni_modules/uni-badge/components/uni-badge/uni-badge",
     "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "popup-comment": "/components/popup-comment/popup-comment",
     "u-parse": "/components/gaoyia-parse/parse"
   }
 }

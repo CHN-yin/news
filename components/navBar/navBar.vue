@@ -1,7 +1,9 @@
 <template>
 	<view>
 		<view class="navBar" @click="handleOpenSearch">
-			<view :style="{height: statusBarHeight + 'px'}"></view>
+			<!-- #ifndef MP-ALIPAY -->
+				<view :style="{height: statusBarHeight + 'px'}"></view>
+			<!-- #endif -->
 			<view class="search" :style="{height: navBarHeight+'px',width: searchWidth+'px'}">
 				<view v-if="is_search" class="search__back iconfont" @click.stop="handleBack">&#xe624;</view>
 				<view v-if="!is_search" class="search__item">
@@ -10,12 +12,18 @@
 				</view>
 				<view v-else class="search__box">
 					<input type="text" class="search__box__rehearsal"
-					v-model="val" placeholder="请输入要搜索的内容" @input="handleInput" />
+					v-model="val" placeholder="请输入搜索内容" @input="handleInput" />
 					<view class="search__box__btn" @click="handleBtn">搜索</view>
 				</view>
 			</view>
 		</view>
-		<view :style="{height: statusBarHeight + navBarHeight + 'px'}"></view>
+		<!-- #ifndef MP-ALIPAY -->
+			<view :style="{height: statusBarHeight + navBarHeight + 'px'}"></view>
+		<!-- #endif -->
+		<!-- #ifdef MP-ALIPAY -->
+			<view :style="{height: navBarHeight + 'px'}"></view>
+		<!-- #endif -->
+		
 	</view>
 </template>
 
@@ -40,7 +48,7 @@
 			//获取状态栏高度
 			const info = uni.getSystemInfoSync()
 			this.statusBarHeight = info.statusBarHeight
-			// #ifndef MP
+			// #ifndef MP-WEIXIN || MP-QQ || MP-TOUTIAO
 			this.searchWidth = window.innerWidth
 			// #endif
 			
@@ -87,11 +95,13 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			padding: 0 16px;
 			height: 45px;
 			&__back{
 				font-size: 20px;
 				color: #fff;
-				margin-left: 16px;
+				margin-right: 5px;
+				// margin-left: 16px;
 			}
 			&__box,
 			&__item{
@@ -102,7 +112,7 @@
 				height: 30px;
 				color: #bcbcbc;
 				background-color: #fff;
-				margin: 0 16px;
+				// margin: 0 16px;
 				&__icon{
 					vertical-align: top;
 					font-size: 20px;
@@ -111,7 +121,7 @@
 				&__rehearsal{
 					flex: 1;
 					padding: 0 5px;
-					font-size: 14px;
+					font-size: 12px;
 				}
 				&__btn{
 					width: 50px;

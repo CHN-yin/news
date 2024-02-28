@@ -4,7 +4,7 @@
 		<view v-else class="content">
 			<navBar></navBar>
 			<tab :list="tabList" :activeIndex="activeIndex" @tab="tab"></tab>
-			<list class="list" :tab="tabList" :activeIndex="activeIndex" @change="handleSwiper"></list>
+			<list :tab="tabList" :activeIndex="activeIndex" @change="handleSwiper"></list>
 		</view>
 	</view>
 </template>
@@ -49,10 +49,7 @@ import { get_label } from '../../../common/api'
 	}
 </script>
 
-<style lang="scss">
-	page {
-		height: 100vh;
-	}
+<style lang="scss" scoped>
 	.loading{
 		display: flex;
 		align-items: center;
@@ -64,8 +61,5 @@ import { get_label } from '../../../common/api'
 		display: flex;
 		flex-direction: column;
 		height: 100%;
-	}
-	.list{
-		flex: 1;
 	}
 </style>
